@@ -1,7 +1,7 @@
 from .game import Game
 
 
-def main() -> None:
+def main() -> None:  # pragma: no cover
     print("Welcome to Guess! I'm thinking of a number between 1 and 10.")
     game = Game()
     while True:
@@ -27,5 +27,5 @@ def main() -> None:
             break
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":  # pragma: no cover
     main()
